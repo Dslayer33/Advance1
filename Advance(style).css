@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif ;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #222;
+    padding: 30px;
+}
+.header{
+    height: 95vh;
+    background-image: linear-gradient(to right bottom ,rgba(153, 35, 17, 0.89),rgba(202, 202, 31, 0.849),rgba(73, 73, 33, 0.89)) , url(../jswork/Advance/img/claudio-schwarz-AHw0W1akIXk-unsplash.jpg);
+    background-size:cover;
+    background-position: top;
+    clip-path: polygon(0 0,100% 0,100% 100%,50% 500px,0 100%);
+    position: relative;
+}
+.logo-box{
+    position: absolute;
+}
+.logo{
+    height: 80px ;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.box{
+    position: absolute;
+    top: 40%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+}
+.header-text{
+color:#fff;
+text-transform: uppercase;
+}
+.header-text-main{
+display: block;
+font-size: 60px;
+font-weight: 400;
+letter-spacing: 35px;
+}
+.header-text-bottom{
+display: block;
+font-size: 15px;
+font-weight: 700;
+letter-spacing: 15px;
+}
